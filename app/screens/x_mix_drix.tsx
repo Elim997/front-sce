@@ -82,6 +82,9 @@ const XmixDrix: FC = () => {
         setBannerDisplay(BunnerDisplay.oplay)
       }
     }
+    else {
+      turn.player = 0
+    }
   }
 
   const [bricks, setValue] = useState<Array<BrickState>>([])
